@@ -1,4 +1,4 @@
-# NVR Cryptowallet
+# Blockchain implementation
 
 Project will implement blockchain as class for using it to manage cryptocurrency.
 The data structure is model of real blockchains such as used blockchains in Bitcoin and Ethereum.
