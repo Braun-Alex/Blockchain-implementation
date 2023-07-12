@@ -1,32 +1,31 @@
 # Blockchain implementation
 
-Project will implement blockchain as class for using it to manage cryptocurrency.
-The data structure is model of real blockchains such as used blockchains in Bitcoin and Ethereum.
+The project implements a blockchain as a class for managing cryptocurrency.
+The data structure serves as a model of real blockchains, such as those used in Bitcoin and Ethereum.
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## 🚀 Overview
 
-Blockchain will permit to manage cryptocurrency in decentralized manner. It will
-achieve by the main class "Blockchain" and additional, but necessary classes "Signature", 
-"KeyPair", "Account", "Operation", "Transaction" and "Block".
+The blockchain enables the decentralized management of cryptocurrency. Is is accomplished using the main class "Blockchain" and additional, but essential, classes 
+including "Signature", "KeyPair", "Account", "Operation", "Transaction", and "Block".
 
 #### Interfaces
 
-| Interface   | Requirements for interface                                                                    |
-| :---------- | :-------------------------------------------------------------------------------------------- |
-| Signature   | Should implement **ECDSA**.                                                                   |
-| KeyPair     | Must implement convenient way to use **private** and **public** keys.                         |
-| Account     | Must implement **the main** entity in blockchain interface. Represents end user of system.    |
-| Operation   | Must implement **atomic** transaction.                                                        |
-| Transaction | **The main** way to interacting account with blockchain.                                      | 
-| Block       | Must implement block of transactions.                                                         |
-| Blockchain  | **The main interface**. Must implement block history and databases of coins and transactions. |
+| Interface   | Requirements for interface                                                                                  |
+| :---------- | :---------------------------------------------------------------------------------------------------------- |
+| Signature   | Must implement **ECDSA**.                                                                                   |
+| KeyPair     | Must implement convenient way to use the **private** and **public** keys.                                   |
+| Account     | The main entity in the blockchain interface must be implemented. It represents the end user of the system.  |
+| Operation   | Must implement the **atomic** transaction.                                                                  |
+| Transaction | **The main** way to interact with an account on the blockchain.                                             | 
+| Block       | Must implement the block of transactions.                                                                   |
+| Blockchain  | **The main interface** must implement the block history, as well as the database of coins and transactions. |
 
 ## ⚡️ Features
 
-- [x] Using of the blockchain may be possible only with using of pointed interfaces.
-- [x] Product does not interact with any internal products and components except used libraries.
-- [x] Classes do not provide for all scenarios of its using. User should be careful with them.
-- [x] High security standards with using ECDSA and SHA3.
-- [x] Blockchain interface may be used by anyone without any restrictions.
+- [x] The use of the blockchain may only be possible when utilizing the specified interfaces.
+- [x] The product does not interact with any internal products and components except used libraries.
+- [x] The classes do not provide for all scenarios of its using. User should be careful with them.
+- [x] High security standards using ECDSA and SHA3.
+- [x] The blockchain interface may be used by anyone without any restrictions.
